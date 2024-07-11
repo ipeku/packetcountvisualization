@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from matplotlib.ticker import ScalarFormatter, FuncFormatter
 
 # Load the CSV file
-file_path = 'C:/Users/ipek/Documents/402.csv'
+file_path = 'C:/Users/ipek/Documents/youtubeguncel12.csv'
 data = pd.read_csv(file_path)
 
 # Convert 'Time' from seconds to timedelta
