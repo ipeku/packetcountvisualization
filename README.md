@@ -1,13 +1,20 @@
 # Packet Count Visualization
 
-This project visualizes packet counts over time, resampled to 1-second intervals, using data from a CSV file.
+This project is designed to visualize network traffic data of "youtube" collected using Wireshark. Our goal is to understand and analyze changes in network traffic over time.
 
 ## Table of Contents
 
+- [Features](#features)
 - [Overview](#overview)
 - [Usage](#usage)
 - [Prerequisites](#prerequisites)
+  
+## Features
 
+- Data Collection: Packet counts of "youtube" over a specific time period were collected using Wireshark and saved into a CSV file.
+- Data Processing: Data from the CSV file was processed using Python and Pandas, resampling it into 1-second intervals.
+- Visualization: We used the Matplotlib library to create a time-series graph showing the packet counts over time.
+- Analysis: The graphs were analyzed to understand the intensity and variations in network traffic.
   
 ## Overview
 
